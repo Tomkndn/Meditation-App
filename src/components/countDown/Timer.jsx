@@ -25,8 +25,6 @@ const ShowCounter = ({ hours, minutes, seconds }) => {
     <div className="show-counter">
       <a
         href=""
-        target="_blank"
-        rel="noopener noreferrer"
         className="countdown-link"
       >
         <DateTimeDisplay value={hours} type={"Hours"} isDanger={hours <= 1} />
@@ -41,7 +39,7 @@ const ShowCounter = ({ hours, minutes, seconds }) => {
 
 const Timer = ({ targetTime }) => {
   const [hours, minutes, seconds] = useCountdown(targetTime);
-  
+
   return hours + minutes + seconds > 0 ? (
     <ShowCounter hours={hours} minutes={minutes} seconds={seconds} />
   ) : hours + minutes + seconds ?(

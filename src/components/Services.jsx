@@ -1,5 +1,4 @@
 import React from "react";
-// import {serviceData} from '../constants';
 import sImg from "../assets/meditation.png";
 import sleep from "../assets/sleep.png";
 import stess from "../assets/stess.png";
@@ -13,7 +12,7 @@ const Services = () => {
         <div className="container-fluid mx-auto px-[5%] lg:px-[15%] py-16">
           <div>
             <div
-              className="service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
+              className="pt-[75px] service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
               id="Meditation"
             >
               <div className="service-info">
@@ -40,7 +39,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
+              className="pt-[75px] service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
               id="Sleep"
             >
               <div className="service-img text-center order-1 lg:order-[0]">
@@ -67,7 +66,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
+              className="pt-[75px] service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
               id="Stress"
             >
               <div className="service-info">
@@ -92,7 +91,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
+              className="pt-[75px] service-item grid lg:grid-cols-2 gap-10 mx-auto items-center justify-center"
               id="Mindfullness"
             >
               <div className="service-img text-center order-1 lg:order-[0]">

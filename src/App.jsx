@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import MeditationDetails from "./components/MeditationDetails";
 
 function App() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   return (
     <Router>
       <>
