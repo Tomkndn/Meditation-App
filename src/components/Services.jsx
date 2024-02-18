@@ -4,6 +4,7 @@ import sImg from "../assets/meditation.png";
 import sleep from "../assets/sleep.png";
 import stess from "../assets/stess.png";
 import mindf from "../assets/mindf.png";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -26,12 +27,12 @@ const Services = () => {
                   happiness.
                 </p>
                 <div className="primary-btn mt-8">
-                  <a
-                    href=""
+                  <Link
+                    to={`/Soft`}
                     className="py-3 px-12 hover:opacity-80 rounded-full text-md font-medium"
                   >
                     Start your journey
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="service-img text-center">
@@ -56,12 +57,12 @@ const Services = () => {
                   happiness.
                 </p>
                 <div className="primary-btn mt-8">
-                  <a
-                    href=""
+                  <Link
+                    to={`/Sleep`}
                     className="py-3 px-12 rounded-full text-md font-medium"
                   >
                     Start your journey
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -78,12 +79,12 @@ const Services = () => {
                   happiness.
                 </p>
                 <div className="primary-btn mt-8">
-                  <a
-                    href=""
+                  <Link
+                    to={`/Stress`}
                     className="py-3 px-12 hover:opacity-80 rounded-full text-md font-medium"
                   >
                     Start your journey
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="service-img text-center">
@@ -108,12 +109,12 @@ const Services = () => {
                   happiness.
                 </p>
                 <div className="primary-btn mt-8">
-                  <a
-                    href=""
+                  <Link
+                    to={`/Mindfullness`}
                     className="py-3 px-12 hover:opacity-80 rounded-full text-md font-medium"
                   >
                     Start your journey
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

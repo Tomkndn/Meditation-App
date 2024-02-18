@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/:id" element={<MeditationDetails />} />
+          <Route path="/:type" element={<MeditationDetails />} />
         </Routes>
         <Footer />
       </>

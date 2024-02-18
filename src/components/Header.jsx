@@ -2,6 +2,7 @@ import React from 'react'
 
 // impor logo from assets 
 import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -10,29 +11,29 @@ const Header = () => {
         <div className="container-fluid">
           <div className="nav-bar flex items-center justify-between">
             <div className="brand-logo">
-              <a href="#">
+              <Link to={`/`}>
                 <img src={logo} alt="" />
-              </a>
+              </Link>
             </div>
             <div className="page-menu hidden lg:block">
               <ul className="flex gap-4">
                 <li className="mx-4 text-md text-blck font-medium hover:text-[--bg-primary]">
-                  <a href="#Meditation" rel="noopener noreferrer">
+                  <a href="/#Meditation" rel="noopener noreferrer">
                     Meditation
                   </a>
                 </li>
                 <li className="mx-4 text-md text-blck font-medium hover:text-[--bg-primary] ">
-                  <a href="#Sleep" rel="noopener noreferrer">
+                  <a href="/#Sleep" rel="noopener noreferrer">
                     Sleep
                   </a>
                 </li>
                 <li className="mx-4 text-md text-blck font-medium hover:text-[--bg-primary] ">
-                  <a href="#Stress" rel="noopener noreferrer">
+                  <a href="/#Stress" rel="noopener noreferrer">
                     Stress
                   </a>
                 </li>
                 <li className="mx-4 text-md text-blck font-medium hover:text-[--bg-primary] ">
-                  <a href="#Mindfullness" rel="noopener noreferrer">
+                  <a href="/#Mindfullness" rel="noopener noreferrer">
                     Mindfullness
                   </a>
                 </li>
