@@ -18,6 +18,13 @@ font-family: 'Red Hat Display', sans-serif; */
   --bg-light: #fff;
   --bg-primary: #ffae28;
   --bg-secondary: #26a96f;
+  
+  --bg-primary-o: #fbead0;
+  --step0: #fcb9b8;
+  --step1: #bad5ea;
+  --step2: #ffd3c8;
+  --step3: #8db6d4;
+  --step4: #ffdcb3;
 }
 
 .primary-btn a {

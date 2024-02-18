@@ -39,7 +39,6 @@ const CountDown = () => {
         Timer (s):
       </label>
       <input
-        name="timer"
         type="text"
         placeholder="input time"
         className="timepicker-ui-input"
